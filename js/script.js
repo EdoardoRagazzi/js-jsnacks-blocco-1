@@ -3,7 +3,7 @@
 //L’utente inserisce due parole in successione, con due prompt. Il software stampa prima la parola più corta, poi la parola più lunga.
 // Se uguale lunghezza dire sono uguali e stamparle entrambe.
 
-var wordFirst = prompt();
+/*var wordFirst = prompt();
 var wordSecond = prompt();
 
 var longFirst = wordFirst.length;
@@ -59,7 +59,7 @@ for (var i = 0; i < 5; i++) {
 }
 
 
-// JSnack3
+//-----JSnack3------
 // 20 minuti
 // Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array
 
@@ -73,6 +73,25 @@ for (var i = 0; i < 6; i++) {
         array.push(numero);
         console.log(numero);
         document.getElementById('lista').innerHTML += numero;
+    }
+}
+*/
+//-------JSnack4-------
+// In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
+
+
+var invitati = ['Teodoro', 'Cassiano', 'Vecchialenza', 'HarryPotter'];
+
+var nomeUtente = prompt();
+
+for (i = 0; i < invitati.length; i++) {
+
+    if (nomeUtente == invitati[i]) {
+        console.log('puoi');
+        document.getElementById('lista').innerHTML += 'Puoi partecipare alla festa' + ' ' + nomeUtente;
+    } else {
+        console.log('non puoi');
+
     }
 }
 
