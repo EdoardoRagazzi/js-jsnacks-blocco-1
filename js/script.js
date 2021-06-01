@@ -91,7 +91,7 @@ for (i = 0; i < invitati.length; i++) {
         document.getElementById('lista').innerHTML += 'Puoi partecipare alla festa' + ' ' + nomeUtente;
     } else {
         console.log('non puoi');
-
+        //document.getElementById('lista').innerHTML = 'Non Puoi partecipare alla festa';-------> ??? Non funziona.
     }
 }
 
